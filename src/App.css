@@ -1,0 +1,57 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.4s;
+}
+
+#quote-box {
+  background-color: azure;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 450px;
+  padding: 40px 50px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#author {
+  text-align: right;
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#text {
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+.button {
+  color: white;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 8px 18px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+  display: block;
+  line-height: 24px;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+#tweet-quote > svg {
+  vertical-align: middle;
+}
+
+.button:hover {
+  opacity: 0.85;
+}
